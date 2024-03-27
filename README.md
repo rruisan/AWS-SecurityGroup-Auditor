@@ -15,7 +15,7 @@ Este script está diseñado para realizar una auditoría completa de los grupos 
 1. **Configuración del Ambiente**: Asegúrate de que Python y Boto3 están instalados y que tus credenciales de AWS están configuradas correctamente.
 2. **Ejecución del Script**: Ejecuta el script utilizando Python desde la línea de comandos:
    ```
-   python script_sg_usage.py
+   python check_sg_usage.py
    ```
 3. **Interacción durante la Ejecución**: El script te solicitará confirmación antes de proceder a eliminar los grupos de seguridad que no estén asociados a ningún recurso. Debes responder `sí` para proceder con la eliminación.
 
